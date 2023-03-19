@@ -1,0 +1,30 @@
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin
+testbin/*
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Kubernetes Generated files - skip generated files, except for vendored files
+
+!vendor/**/zz_generated.*
+
+# editor and IDE paraphernalia
+.idea
+config/
+*.swp
+*.swo
+*~
+config/dockerfile/etcd-3.3.11-2.el7.centos.x86_64.rpm
+config/dockerfile/hashdata-3.11.10_17711-1.el7.x86_64.rpm
+.vscode/settings.json
+vendor
